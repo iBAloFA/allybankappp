@@ -17,8 +17,8 @@ export const ACCOUNTS: Account[] = [
     name: "Ally Spending Account",
     shortName: "ALLY SPENDING",
     number: "•••• 4471",
-    balance: 10200000.0,
-    available: 10200000.0,
+    balance: 10275342.95,
+    available: 10275342.95,
     type: "Spending",
   },
   {
