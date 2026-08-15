@@ -3,8 +3,8 @@ import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider 
 import { A as redirect, c as HeadContent, d as Outlet, f as lazyRouteComponent, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter, v as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-VnXqf2Gh.js
-var router_VnXqf2Gh_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DA7C_pn3.js
+var router_DA7C_pn3_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-6oKivD13.css";
@@ -215,7 +215,7 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AuthProvider, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, { position: "bottom-center" })] })
 	});
 }
-var $$splitComponentImporter$1 = () => import("./routes-CdJ4jhSK.mjs");
+var $$splitComponentImporter$1 = () => import("./routes-BwVY_5ns.mjs");
 var Route$1 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Ally Bank Mobile Demo — Accounts, Transfers & Cards" },
@@ -272,4 +272,4 @@ var getRouter = () => {
 	});
 };
 //#endregion
-export { getRouter, router_VnXqf2Gh_exports as t };
+export { getRouter, router_DA7C_pn3_exports as t };

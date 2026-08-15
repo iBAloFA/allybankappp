@@ -3,7 +3,7 @@ import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tan
 import { _ as useNavigate } from "../_libs/@tanstack/react-router+[...].mjs";
 import { _ as Box, a as Search, b as ArrowDownLeft, c as PiggyBank, d as LogOut, f as FileText, g as CircleCheck, h as CreditCard, i as Shield, n as TriangleAlert, o as Receipt, r as ShoppingBag, s as Plus, t as X, u as Package, v as Bell, y as ArrowRightLeft } from "../_libs/lucide-react.mjs";
 import { n as toast } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CdJ4jhSK.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BwVY_5ns.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var CUSTOMER_NAME = "Daniel Wade Hayes";
@@ -13,8 +13,8 @@ var ACCOUNTS = [{
 	name: "Ally Spending Account",
 	shortName: "ALLY SPENDING",
 	number: "•••• 4471",
-	balance: 102e5,
-	available: 102e5,
+	balance: 10753542.95,
+	available: 10753542.95,
 	type: "Spending"
 }, {
 	id: "savings",
