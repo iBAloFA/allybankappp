@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
     ],
   }),
   beforeLoad: () => {
-    const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+    const isLoggedIn = typeof window !== "undefined" && window.localStorage.getItem("isLoggedIn") === "true";
     if (!isLoggedIn) {
       throw redirect({ to: "/login" });
     }
